@@ -1,5 +1,6 @@
 const http = require('http');
-const io = require('socket.io')(9000);
+const fs = require('fs');
+const io = require('socket.io')(http);
 
 // création du serveur
 const server = http.createServer((req, res) =>{
