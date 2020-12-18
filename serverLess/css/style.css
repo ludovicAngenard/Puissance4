@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  text-align: center;
+}
+.column{
+    display:inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    background-color: white;
+  }
+
+  .empty{
+      cursor: pointer;
+  }
+
+  .plateau{
+    width:420px;
+    height: 420px;
+    background-color: blue;
+    display: inline-block;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+  .red{
+    background-color: red;
+  }
