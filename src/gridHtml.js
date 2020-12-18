@@ -3,6 +3,7 @@ function buildHead(){
         <head>
           <title>NodeJS</title>
           <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <style>
             .column{
               display:inline-block;
@@ -21,6 +22,12 @@ function buildHead(){
               height: 420px;
               background-color: blue;
               display: inline-block;
+            }
+            .yellow{
+              background-color: yellow;
+            }
+            .red{
+              background-color: red;
             }
           </style>
         </head>
@@ -41,7 +48,7 @@ function buildBody404(unknownPath){
 
 
 exports.buildPageGrid = (grid)=>{
-    return `
+  return `
       <!DOCTYPE html>
         <html>
             ${buildHead()}
