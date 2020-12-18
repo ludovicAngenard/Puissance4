@@ -9,7 +9,7 @@ function pvp(){
         var column = $(this).attr("data-column");
         var row = $(this).attr("data-row");
         if (currentPlayerIsPlayer1){
-            player1.putToken(grid.rowList, row, column)
+            player1.putToken(grid.rowList, row, column);
         }else {
 
         }
